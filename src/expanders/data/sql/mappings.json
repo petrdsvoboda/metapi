@@ -1,0 +1,10 @@
+{
+  "prop": {
+    "type": {
+      "str": { "target": "varchar" },
+      "i32": { "target": "int4" },
+      "f32": { "target": "float4" },
+      "u32": { "target": "uint4" }
+    }
+  }
+}

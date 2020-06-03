@@ -1,0 +1,10 @@
+{
+  "prop": {
+    "type": {
+      "str": { "target": "string" },
+      "i32": { "target": "number" },
+      "f32": { "target": "number" },
+      "u32": { "target": "number" }
+    }
+  }
+}

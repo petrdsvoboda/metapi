@@ -1,0 +1,18 @@
+import { Model } from 'objection'
+
+class @name extends Model {
+  static get tableName() {
+    return '@name';
+  }
+
+  static get relationMappings() {
+    return {@rels};
+  }
+
+  static get jsonSchema() {
+    return {
+      type: 'object',
+      properties: {@props}
+    };
+  }
+}
